@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+  </head>
+ 
+  <body>
+
+
+    <input type="file" id="file" />
+    <pre>
+    status: <div id="test-div">...</div>
+    </pre>
+
+    k-mer counts:
+    <pre><div id="outf">...</div></pre>
+  </body>
+
+
+<script type="module">
+import init from './pkg/wasm_bio.js';
+await init();
+</script>
+</html>
+
