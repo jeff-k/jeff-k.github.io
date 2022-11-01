@@ -634,7 +634,7 @@ function initSync(module) {
 
 async function init(input) {
     if (typeof input === 'undefined') {
-        input = new URL('corm-web-d9050f7013e93fe4_bg.wasm', import.meta.url);
+        input = new URL('corm-web-f111843586dfd860_bg.wasm', import.meta.url);
     }
     const imports = getImports();
 
