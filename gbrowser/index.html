@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="/style-51fe5c1ca126aae2.css" integrity="sha384&#x2D;ZYWPfwJgSliunuPJjPkAJNtDMKCE0d&#x2B;3UQYbz3uIPaXN59SxwH&#x2B;&#x2F;S&#x2B;lgN3mLSKr7"/>
+<link rel="modulepreload" href="/plasmidfig-6f40b7ef01324ff9.js" crossorigin=anonymous integrity="sha384-dFx7v6M4DvSv95zyEKr+7FDQv+cPRY5WRzFp4xaiHc5bzj/f/VT4YvAsmipTiHIv"><link rel="preload" href="/plasmidfig-6f40b7ef01324ff9_bg.wasm" crossorigin=anonymous integrity="sha384-E2hm0/RswMiHxXUCAAf+DiMoVnmKw1UCYbqXN/0dxNX+b/hIAJ7cHgmbMdBOa42V" as="fetch" type="application/wasm"></head>
+<body>
+<script type="module" nonce="1G/HPQfbB+6q5vvnec/s6Q==">
+import init, * as bindings from '/plasmidfig-6f40b7ef01324ff9.js';
+const wasm = await init({ module_or_path: '/plasmidfig-6f40b7ef01324ff9_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
