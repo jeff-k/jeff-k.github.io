@@ -1,0 +1,150 @@
+.app-container { max-width: 1600px; margin: 0 auto; padding: 20px; display: flex; flex-direction: column; gap: 2rem; }
+.linear-view { display: flex; flex-direction: column; align-items: center; margin-bottom: 2rem; }
+
+.circular-view { display: flex; gap: 2rem; justify-content: flex-start; position: relative; }
+.circular-figure { flex-shrink: 0; }
+
+.tables-container {
+    width: 400px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.figures-container {
+    /*flex: 1;*/
+    width: calc(100vw - 450px);
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.paf-table {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    overflow: hidden;
+    height: fit-content;
+}
+
+.paf-table-tb {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.paf-th {
+    background: #f6f8fa;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #57606a;
+    border-bottom: 1px solid #d0d7de;
+}
+
+.paf-td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #d0d7de;
+    color: #24292f;
+}
+
+.paf-hover {
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.paf-hover:hover {
+    background-color: #f6f8fa;
+}
+
+.paf-hover-selected {
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+    background-color: #ffe6b3;
+}
+
+.paf-hover-selected:hover {
+    background-color: #ffbb33;
+}
+
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                 "Noto Sans", Helvetica, Arial, sans-serif,
+                 "Apple Color Emoji", "Segoe UI Emoji";
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #24292f;
+}
+
+svg text,
+svg .label {
+    font-family: "monospace";
+    font-size: 10px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #24292f;
+}
+
+.genome-badge {
+    display: inline-block;
+    padding: 0.1em 0.6em;
+    border-radius: 4px;
+    font-weight: 500;
+    margin: 0 0.1em;
+    color: #000000;
+    white-space: nowrap;
+    min-width: fit-content;
+}
+
+.markdown-body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0em;
+    width: 100%;
+}
+
+
+.genome-badge.salmon {
+    background-color: Salmon;
+}
+
+.genome-badge.plum {
+    background-color: Plum;
+}
+
+.genome-badge.lightgreen {
+    background-color: LightGreen;
+}
+
+.genome-badge {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.markdown-body p .genome-badge {
+    margin: 0 0.2em;
+    position: relative;
+    top: -1px;
+}
+
+.genome-list {
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.genome-list li {
+    margin: 0.5rem 0;
+    gap: 0.5rem;
+}
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta property="og:title" content="M. Gordonae draft assembly against RefSeq" />
+  <meta property="og:description" content="sdf" />
+  <meta property="og:image" content="https://jeff-k.github.io/gordvsrefseq/preview.png" />
+
+  <link rel="stylesheet" href="/style-2e8fd0727ec3c9f9.css" integrity="sha384&#x2D;Fyr2IZNzExDLZPVDOZcWUiwDFLFYOoQCC1Wmw&#x2B;Fop8otsUPe0eqC9Bf7xjkro86a"/>
+
+
+  <title>Multiple alignment viewer</title>
+<link rel="modulepreload" href="/web-alignments-58a78b21e43197f1.js" crossorigin="anonymous" integrity="sha384-kVVwdXr4nKkPM+xQexcX1D/eXWuFNVhFDksW6DhX45bx9oOQlLUuB99avLjwKyGP"><link rel="preload" href="/web-alignments-58a78b21e43197f1_bg.wasm" crossorigin="anonymous" integrity="sha384-//MDoLpk8XH1m8nJCK4pRTWwMCPl6c3FTFfZHJEY+qcdWFjd/Moy51olzZ67yGt/" as="fetch" type="application/wasm"></head>
+<body>
+<script type="module">
+import init, * as bindings from '/web-alignments-58a78b21e43197f1.js';
+const wasm = await init({ module_or_path: '/web-alignments-58a78b21e43197f1_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
