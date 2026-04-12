@@ -1,0 +1,15 @@
+{
+  "name": "mbrot",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "mbrot_bg.wasm",
+    "mbrot.js",
+    "mbrot.d.ts"
+  ],
+  "main": "mbrot.js",
+  "types": "mbrot.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
