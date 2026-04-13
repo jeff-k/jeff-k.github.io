@@ -10,6 +10,9 @@ export interface InitOutput {
     readonly start: () => void;
     readonly wasm_bindgen_2da5bc5d537d0f5f___convert__closures_____invoke___wasm_bindgen_2da5bc5d537d0f5f___JsValue__core_1c4e38e72ed08b9d___result__Result_____wasm_bindgen_2da5bc5d537d0f5f___JsError___true_: (a: number, b: number, c: any) => [number, number];
     readonly wasm_bindgen_2da5bc5d537d0f5f___convert__closures_____invoke___wasm_bindgen_2da5bc5d537d0f5f___JsValue______true_: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen_2da5bc5d537d0f5f___convert__closures_____invoke___web_sys_e4b74ee24a9d06ac___features__gen_WheelEvent__WheelEvent______true_: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen_2da5bc5d537d0f5f___convert__closures_____invoke___web_sys_e4b74ee24a9d06ac___features__gen_WheelEvent__WheelEvent______true__3: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen_2da5bc5d537d0f5f___convert__closures_____invoke_______true_: (a: number, b: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
     readonly __wbindgen_exn_store: (a: number) => void;
