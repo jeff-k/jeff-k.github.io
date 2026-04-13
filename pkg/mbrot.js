@@ -47,6 +47,14 @@ function __wbg_get_imports() {
             const ret = arg0.beginRenderPass(arg1);
             return ret;
         }, arguments); },
+        __wbg_clientHeight_01b31bebacb195f0: function(arg0) {
+            const ret = arg0.clientHeight;
+            return ret;
+        },
+        __wbg_clientWidth_188be30d8e061ee5: function(arg0) {
+            const ret = arg0.clientWidth;
+            return ret;
+        },
         __wbg_configure_16541864db644c70: function() { return handleError(function (arg0, arg1) {
             arg0.configure(arg1);
         }, arguments); },
@@ -94,6 +102,10 @@ function __wbg_get_imports() {
             const ret = arg0.createView(arg1);
             return ret;
         }, arguments); },
+        __wbg_devicePixelRatio_18e6533e6d7f4088: function(arg0) {
+            const ret = arg0.devicePixelRatio;
+            return ret;
+        },
         __wbg_dispatchWorkgroups_863a24e86337dc58: function(arg0, arg1, arg2, arg3) {
             arg0.dispatchWorkgroups(arg1 >>> 0, arg2 >>> 0, arg3 >>> 0);
         },
